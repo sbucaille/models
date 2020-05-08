@@ -44,7 +44,7 @@ cd "${WORK_DIR}"
 cd "${CURRENT_DIR}"
 
 # Root path for PASCAL VOC 2012 dataset.
-PASCAL_ROOT="${WORK_DIR}/PQR"
+PASCAL_ROOT="${WORK_DIR}/${1}"
 
 # Remove the colormap in the ground truth annotations.
 SEG_FOLDER="${PASCAL_ROOT}/SegmentationClass"
