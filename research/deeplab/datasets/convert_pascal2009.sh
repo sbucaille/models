@@ -63,7 +63,7 @@ mkdir -p "${OUTPUT_DIR}"
 IMAGE_FOLDER="${PASCAL_ROOT}/JPEGImages"
 LIST_FOLDER="${PASCAL_ROOT}/ImageSets/Segmentation"
 
-echo "Converting PASCAL VOC 2012 dataset..."
+echo "Converting PASCAL VOC 2009 dataset..."
 python3 "${SCRIPT_DIR}/build_voc2012_data.py" \
   --image_folder="${IMAGE_FOLDER}" \
   --semantic_segmentation_folder="${SEMANTIC_SEG_FOLDER}" \

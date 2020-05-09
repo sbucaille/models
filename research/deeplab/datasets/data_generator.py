@@ -101,9 +101,9 @@ _ADE20K_INFORMATION = DatasetDescriptor(
 
 _PASCAL_VOC2009_SEG_INFORMATION = DatasetDescriptor(
     splits_to_sizes={
-        'train' : 749,
-        'trainval' : 1499,
-        'val' : 750
+        'train' : 1049,
+        'val' : 224,
+        'test' : 226
     },
     num_classes=21,
     ignore_label=255
